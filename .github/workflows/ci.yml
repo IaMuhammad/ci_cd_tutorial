@@ -2,7 +2,7 @@ name: CI tutorial
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "master" ]
 
 jobs:
   run-test:
