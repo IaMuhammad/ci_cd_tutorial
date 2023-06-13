@@ -1,4 +1,4 @@
-name: CI tutorial
+name: CD tutorial
 
 on:
   push:
