@@ -40,4 +40,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           script: |
             git pull
-            systemctl restart gunicorn.service
+            systemctl restart ci_cd_tutorial.service

@@ -5,5 +5,5 @@ from apps.models import AModel
 
 # Register your models here.
 @admin.register(AModel)
-class AADmin(admin.ModelAdmin):
+class AAdmin(admin.ModelAdmin):
     pass
