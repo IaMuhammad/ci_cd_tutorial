@@ -39,5 +39,6 @@ jobs:
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           script: |
+            cd /home/newuser/ci_cd_tutorial
             git pull
             systemctl restart ci_cd_tutorial.service
