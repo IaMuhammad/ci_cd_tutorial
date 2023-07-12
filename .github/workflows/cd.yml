@@ -38,6 +38,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
+          key: ${{ secrets.KEY }}
           script: |
             cd /home/newuser/ci_cd_tutorial
             git pull
